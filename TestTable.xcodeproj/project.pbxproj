@@ -12,6 +12,10 @@
 		50C5CE6222D79B3100635650 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50C5CE6022D79B3100635650 /* Main.storyboard */; };
 		50C5CE6422D79B3300635650 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50C5CE6322D79B3300635650 /* Assets.xcassets */; };
 		50C5CE6722D79B3300635650 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50C5CE6522D79B3300635650 /* LaunchScreen.storyboard */; };
+		50C5CE6F22D79BE100635650 /* GoogleTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50C5CE6E22D79BE100635650 /* GoogleTableView.swift */; };
+		50C5CE7122D79C3D00635650 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50C5CE7022D79C3D00635650 /* Extensions.swift */; };
+		50C5CE7322D79C7500635650 /* ListDiff.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50C5CE7222D79C7500635650 /* ListDiff.swift */; };
+		50C5CE7522D79CBF00635650 /* Cells.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50C5CE7422D79CBF00635650 /* Cells.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,10 @@
 		50C5CE6322D79B3300635650 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		50C5CE6622D79B3300635650 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		50C5CE6822D79B3300635650 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		50C5CE6E22D79BE100635650 /* GoogleTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleTableView.swift; sourceTree = "<group>"; };
+		50C5CE7022D79C3D00635650 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		50C5CE7222D79C7500635650 /* ListDiff.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListDiff.swift; sourceTree = "<group>"; };
+		50C5CE7422D79CBF00635650 /* Cells.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cells.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +64,10 @@
 			children = (
 				50C5CE5C22D79B3100635650 /* AppDelegate.swift */,
 				50C5CE5E22D79B3100635650 /* ViewController.swift */,
+				50C5CE6E22D79BE100635650 /* GoogleTableView.swift */,
+				50C5CE7422D79CBF00635650 /* Cells.swift */,
+				50C5CE7222D79C7500635650 /* ListDiff.swift */,
+				50C5CE7022D79C3D00635650 /* Extensions.swift */,
 				50C5CE6022D79B3100635650 /* Main.storyboard */,
 				50C5CE6322D79B3300635650 /* Assets.xcassets */,
 				50C5CE6522D79B3300635650 /* LaunchScreen.storyboard */,
@@ -135,8 +147,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				50C5CE7322D79C7500635650 /* ListDiff.swift in Sources */,
+				50C5CE7522D79CBF00635650 /* Cells.swift in Sources */,
+				50C5CE6F22D79BE100635650 /* GoogleTableView.swift in Sources */,
 				50C5CE5F22D79B3100635650 /* ViewController.swift in Sources */,
 				50C5CE5D22D79B3100635650 /* AppDelegate.swift in Sources */,
+				50C5CE7122D79C3D00635650 /* Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
